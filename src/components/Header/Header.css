@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 15vh;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, #f574ce, #9d2ae5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+hr {
+    margin: 10px;
+    width: 100%;
+    background: linear-gradient(to right,#f574ce, #9d2ae5);
+    height: 1px;
+    border: none;
+}
